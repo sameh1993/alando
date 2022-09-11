@@ -1,0 +1,56 @@
+{
+  "name": "Karenderia_Single_Website",
+  "version": "0.0.1",
+  "description": "single website restaurant app",
+  "productName": "E-delivery restaurant",
+  "author": "basti",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.vue ./",
+    "lint-fix": "npm run lint -- --fix",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.13.5",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "jquery": "^3.6.1",
+    "jwt-decode": "^3.1.2",
+    "pinia": "^2.0.13",
+    "quasar": "^2.6.6",
+    "v-money3": "^3.21.0",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.1.9",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@intlify/vue-i18n-loader": "^4.1.0",
+    "@quasar/app-webpack": "^3.5.1",
+    "eslint": "^8.23.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
