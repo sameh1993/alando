@@ -124,8 +124,8 @@
 </template>
 
 <style lang="scss">
-@import "/src/css/customs.css";
-@import "/src/css/_rules.scss";
+@import "src/css/customs.css";
+@import "src/css/rules.scss";
 
 .fixed-product {
   position: fixed;
