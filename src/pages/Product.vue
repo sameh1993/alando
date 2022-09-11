@@ -346,7 +346,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "/src/css/_rules.scss";
+@import "src/css/_rules.scss";
 
 .product {
   .q-option-group {
